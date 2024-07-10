@@ -1,4 +1,6 @@
-# ScriptHub
+# BashMyPython
+
+A collection of my favorite scripts that I often use.
 
 - [ScriptHub](#scripthub)
   - [Description](#description)
