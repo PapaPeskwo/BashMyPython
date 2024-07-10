@@ -30,7 +30,7 @@ This script sets up SSH keys and configures SSH for a specified host. It generat
 
 ### Usage
 ```bash
-sshsetup.sh <key_path> <host_alias> <user> <hostname> [-c] [-p <port>]
+sshsetup.sh /<key_path> <host_alias> <user> <hostname> [-c] [-p <port>]
 ```
 - `<key_path>`: Path to the SSH key (relative to `~/.ssh`).
 - `<host_alias>`: Alias for the host.
@@ -41,5 +41,8 @@ sshsetup.sh <key_path> <host_alias> <user> <hostname> [-c] [-p <port>]
 
 ### Example
 ```bash
-sshsetup.sh /id_rsa_mykey myhost user example.com -c -p 2222
+sshsetup.sh /id_myserver myserver admin 192.168.1.2 -c -p 2222
+```
+```bash
+ssh myserver
 ```
