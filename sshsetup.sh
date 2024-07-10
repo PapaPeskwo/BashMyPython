@@ -12,7 +12,7 @@ USER="$3"
 HOSTNAME="$4"
 CONNECT_AFTER=false
 PORT=22
-EMAIL="tomi.orlovac@gmail.com"
+EMAIL=""
 
 # Parse optional arguments
 shift 4
